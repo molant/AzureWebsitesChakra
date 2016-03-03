@@ -9,4 +9,10 @@
 5. Verify AppPool Identity has the required permissions
 
 
-- Current chakracore binaries are [node-chakracore-6.0.0-pre5](https://github.com/nodejs/node-chakracore/releases/tag/node-chakracore-6.0.0-pre5)
+* Current chakracore binaries are [node-chakracore-6.0.0-pre5](https://github.com/nodejs/node-chakracore/releases/tag/node-chakracore-6.0.0-pre5)
+
+### To run Nodejs website with Chakracore in Azure Websites
+
+* This is currently WIP
+
+Change ```nodeProcessCommandLine``` in iisnode.yml to ```D:\home\site\wwwroot\bin\node.exe```
